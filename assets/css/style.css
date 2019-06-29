@@ -38,14 +38,21 @@ img.bg{
     font-size: 20px;
     color: #777777;
 }
-a{
+a.change{
     color: #777;
     text-decoration: none;
 }
-a:hover{
+a.change:hover{
     color: #ffffff;
     background-color: #221e1e;
 }
+a.home{
+    /* font-weight: bold; */
+    color: black; 
+    text-decoration: underline;
+    pointer-events: none;   
+}
+
 .nav{
     float: left;
     margin: 0px 4px;
@@ -67,7 +74,9 @@ a:hover{
     margin: 1% auto;
     border: 1px solid #ddd;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+}
+.Ccontent{
+    height: 650px;
 }
 body{
     background-color: #777777;
@@ -106,13 +115,14 @@ footer{
 
 }
 input[type=text], select, textarea {
-    width: 100%; 
+    width: 98%; 
     padding: 12px; 
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
     margin-top: 6px; 
     margin-bottom: 16px;
+    margin-left: 6px;
     resize: vertical;
 }
 input[type=submit] {
@@ -122,6 +132,7 @@ input[type=submit] {
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    margin: 0 10px;
   }
   
 
@@ -130,14 +141,15 @@ input[type=submit]:hover {
   }
   
 .container {
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #f2f2f2;
+    padding: 20px 0px;
     width: 900px;
     margin: 15px auto;
+    border-radius: 10px;
   }
-.Ccontent{
-    height: 650px;
-}
 .contactform{
     color: #777
+}
+label{
+    margin: 10px;
 }
