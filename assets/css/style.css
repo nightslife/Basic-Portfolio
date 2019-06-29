@@ -76,11 +76,11 @@ footer{
 .copyright{
     color: #ffffff;
     font-size: 12px;
-    width: 45px;
+    width: 100%;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
-    left: 48%;  
+      
 }
 .topic{
     width: 900px;
@@ -93,4 +93,37 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+  }
+  
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+  
+.container {
+    background-color: #ffffff;
+    /* padding: 20px; */
+    width: 900px;
+    margin: 15px auto;
+  }
+.Ccontent{
+    height: 650px;
 }

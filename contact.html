@@ -25,14 +25,24 @@
     </header>
 </head>   
     <body>
-        <div class=Pcontent>
+        <div class="Pcontent Ccontent">
             <header class="topic">
                 Contact Me
             </header>
-            <div class="contactform">
-                <form action="contact_form.php">
-                    <label for="fname">Full Name</label>
-                </form>
+            <div class="container">
+                <div class="contactform">
+                    <form action="contact_form.php">
+                        <label for="fname">Full Name: </label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name here...">
+                        <label for="email">Email Address: </label>
+                        <input type="text" id="email" email="email" placeholder="Enter email here...">
+                        <label for="subject">Subject: </label>
+                        <textarea id="subject" name="subject" placeholder="Enter message here..." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
             </div>
         </div> 
    
